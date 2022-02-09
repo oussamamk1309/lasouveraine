@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        
+        <!-- Scripts 1 -->
+        <script src="./assets/js/angular.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+
+        <title>Qui sommes-nous ?</title>
+    </head>
+    <body>
+        <nav class="nav-bar bg-white w-100">
+            <div class="content w-100 m-0 p-0">
+                <div class="logo-box-mid mx-auto my-1">
+                    <img src="./assets/images/logo-sm.png" alt="Logo">
+                </div>
+                <div class="menu mx-auto">
+                    <a href="./" class="my-0 mx-1">Accueil</a>
+                    <a href="./products" class="my-0 mx-1">Produits</a>
+                    <a href="./contact" class="my-0 mx-1">Contact</a>
+                    <a href="./about" class="my-0 mx-1 active">À propos nous</a>
+                </div>
+                <div class="buttons p-3">
+                    <button class="ico-mn" id="open-btn"><i class="fas fa-bars"></i></button>
+                    <button class="ico-mn" id="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+        </nav>
+        <section class="section-41 p-5 m-0">
+            <h2 class="text-center my-5">Qui sommes-nous?</h2>
+        </section>
+        <section class="section-42 my-5 p-5">
+            <div class="container">
+                <p class="my-3 text-justify">
+                    L’aventure <span>La SOUVERAINE</span> a débuté en 2020, d’un rêve un peu fou : faire du bijou un accessoire de mode, à la fois accessible et précieux. Grâce au professionnalisme de nos collaborateurs, et à l’enthousiasme grandissant de nos clients, cette ambition est aujourd’hui devenue réalité.
+                </p>
+                <p class="my-3 text-justify">
+                    Avec plus de 30 bijouteries partout en Tunisie, <span>La SOUVERAINE</span> se rend accessible, autant géographiquement qu’avec ses prix tout doux. Notre passion du bijou nous  pousse à chercher toujours les meilleurs produits au meilleur rapport qualité prix. Entrer chez <span>La SOUVERAINE</span> c’est avoir l’assurance de trouver des pièces tendances, choisies avec soin, pour tous les budgets et au prix le plus compétitif possible. Grâce au renouvellement permanent de collections, de marques partenaires, et à ses nombreuses exclusivités, <span>La SOUVERAINE</span> vous offre la possibilité de jouer avec les tendances et de briller au quotidien, comme pour les grandes occasions.
+                </p>
+            </div>
+        </section>
+        <section class="section-43 mt-5 p-5">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-sm my-2">
+                        <div class="box-svg mx-auto">
+                            <img src="./assets/images/garantie.svg" class="mx-auto" alt="">
+                        </div>
+                        <h6 class="text-center my-3 w-75 mx-auto">Garantie des produits</h6>
+                    </div>
+                    <div class="col-sm my-2">
+                        <div class="box-svg mx-auto">
+                            <img src="./assets/images/livraison.svg" class="mx-auto" alt="">
+                        </div>
+                        <h6 class="text-center my-3 w-75 mx-auto">Livraison 24h - 72h</h6>
+                    </div>
+                    <div class="col-sm my-2">
+                        <div class="box-svg mx-auto">
+                            <img src="./assets/images/30-jours.svg" class="mx-auto" alt="">
+                        </div>
+                        <h6 class="text-center my-3 w-75 mx-auto">Satisfait ou remboursé</h6>
+                    </div>
+                    <div class="col-sm my-2">
+                        <div class="box-svg mx-auto">
+                            <img src="./assets/images/magasin.svg" class="mx-auto" alt="">
+                        </div>
+                        <h6 class="text-center my-3 w-75 mx-auto">Plus de 30 boutiques en Tunisie</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="foot-bar w-100">
+            <div class="content pt-5">
+                <div class="container pt-5">
+                    <div class="row w-100 my-5">
+                        <div class="col-sm my-1">
+                            <div class="img-box mx-auto">
+                                <img src="./assets/images/logo-sm.png" class="w-100" alt="Logo">
+                            </div>
+                            <h6 class="text-center">Bienvenue chez-nous!</h6>
+                        </div>
+                        <div class="col-sm my-2">
+                            <h5>Informations</h5>
+                            <ul class="map p-0 my-3">
+                                <li><a href="./about" class="active">À propos nous</a></li>
+                                <li><a href="#">Conditions d'utilisation</a></li>
+                                <li><a href="#">Politiques de confidentialité</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm my-1">
+                            <h5>Plan du site</h5>
+                            <ul class="map p-0 my-3">
+                                <li><a href="./">Accueil</a></li>
+                                <li><a href="./products">Produits</a></li>
+                                <li><a href="./contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm my-2">
+                            <h5>Informations de contact</h5>
+                            <ul class="contact-list p-0 my-3">
+                                <li><span><i class="fas fa-map-marker-alt fa-fw"></i></span> Rue P5 2eme Étage, Centre Ville Tunis</li>
+                                <li><span><i class="fas fa-phone-alt fa-fw"></i></span> (+216) 25 555 555</li>
+                                <li><span><i class="fas fa-envelope fa-fw"></i></span> email.exp@exp.co</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="w-50 my-5 mx-auto bg-dark">
+                    <div class="rights">
+                        <p class="m-0 p-3 text-center">
+                            <a href="https://oussama-mkaddem.netlify.app" target="_blank"> Oussama Mkaddem</a> &copy; 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Scripts 2 -->
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>AOS.init();</script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
